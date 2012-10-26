@@ -1,8 +1,14 @@
-==BSA Simple==
+__NOTOC__
+=Clean and Thrifty=
+
+==Summary==
+A simple and clean Scouting theme for WordPress.
+
 With the best of the authors understanding, this theme is provided under any jurisdiction of public domain, free of charge, and without warranty. Modifications do not have to be made public, but it is encouraged.
 
 It is a simple Scouting theme for WordPress with no options (yet) that focuses on a clean look. It follows the [http://www.scouting.org/scoutsource/BrandGuide.aspx BSA Brand Identity Guide].
 
+==Details==
 ===Images===
 This theme contains minor changes to the official BSA images. All the changes are documented here.
 
@@ -16,10 +22,9 @@ This theme contains minor changes to the official BSA images. All the changes ar
 * Minor image modification so it can loop.
 
 ===Credit===
+[http://www.scouting.org/ Scouting]
 [http://www.cssstickyfooter.com/using-sticky-footer-code.html Sticky Footer Code]
 
 
-
-===To Do===
-- Needs better name
-- Changeable logo and colors (ie for cub scouts, varsity, etc...)
+==To Do==
+* Changeable logo and colors (ie for cub scouts, varsity, etc...)
