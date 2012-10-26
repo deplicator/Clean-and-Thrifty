@@ -1,9 +1,16 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: News Page
+*/
+
+get_header();
+?>
 
     <div class="main">
         <?php wp_nav_menu(); ?>
 	
         <div id="content-column">
+            <?php query_posts('category_name=News&posts_per_page=10'); ?>
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			
 			<div class="post">
@@ -26,7 +33,7 @@
             </div>
 			
             <?php endwhile; else: ?>
-                <p><?php _e('Sorry, there are no posts.'); ?></p>
+                <p><?php _e('Sorry, no posts labeled as \'News\'.'); ?></p>
             <?php endif; ?>
 
 		</div>

@@ -11,6 +11,12 @@ It follows the [http://www.scouting.org/scoutsource/BrandGuide.aspx BSA Brand Id
 
 ==Details==
 
+===Page Templates===
+
+====News====
+
+The news page template is intended to be a blank page that displays post in the 'News' category. This makes for an ideal front page to display important informaiton.
+
 ===Images===
 
 This theme contains minor changes to the official BSA images. All the changes are documented here.
@@ -37,3 +43,4 @@ This theme contains minor changes to the official BSA images. All the changes ar
 
 * Changeable logo and colors (ie for cub scouts, venture, etc...)
 * Footer info options (like meeting time and place and contact info)
+* Less minor changes to footer image, do something with the end of that rope that's just kind of out there.
