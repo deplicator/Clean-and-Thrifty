@@ -9,6 +9,8 @@ With the best of the authors understanding, this theme is provided under any jur
 
 It follows the [http://www.scouting.org/scoutsource/BrandGuide.aspx BSA Brand Identity Guide].
 
+A live example can be seen at [http://troop1865.org Troop 1865's web page]
+
 ==Details==
 
 ===Page Templates===
