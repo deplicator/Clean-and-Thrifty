@@ -40,7 +40,9 @@ This theme contains minor changes to the official BSA images. All the changes ar
 
 
 ==To Do==
-
+* Link to home in header/title
+* Update single, category, comments, and other neglectied php files.
+* CSS for inside post entries and comment sections.
 * Changeable logo and colors (ie for cub scouts, venture, etc...)
 * Footer info options (like meeting time and place and contact info)
 * Less minor changes to footer image, do something with the end of that rope that's just kind of out there.
