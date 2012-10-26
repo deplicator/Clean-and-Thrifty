@@ -1,0 +1,171 @@
+/*
+Theme Name: Clean and Thrifty
+Theme URI: https://github.com/deplicator/Clean-and-Thrifty
+Description: A simple and clean Scouting theme.
+Author: James Pryor
+Author URI: http://geekwagon.net
+Version: 0.9
+*/
+
+@import url(./reset.css);
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: whitesmoke;
+	color: #5C3D1F;
+	font-family: 'Ariel', sans-serif;
+	height: 100%;
+}
+
+h1 {
+	color: #CE1126;
+	font-size: 3em;
+	font-weight: 700;
+	padding: 30px 0 10px 0;
+}
+
+h2 {
+	color: #CE1126;
+	font-size: 1.1em;
+	padding: 3px;
+}
+
+a:link {
+	color: #CE1126;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #FFCC00;
+	text-decoration: underline;
+}
+
+a:visited,
+a:active {
+	color: #003F87;
+	text-decoration: none;
+}
+
+#wrapper {
+	min-height: 100%;
+	width: 85%;
+	margin: 0 auto;
+	min-width: 745px;
+}
+
+/*Header*/
+#header {
+	height: 170px;
+	padding: 15px;
+}
+
+#header img {
+	float: left;
+	margin: 0 25px 0 0;
+}
+
+/*Main Body*/
+.main {
+    overflow: auto;
+    padding-bottom: 309px;
+}
+
+/* Navigation */
+.menu {
+    width: 15%;
+    float: left;
+    list-style: none;
+}
+
+.menu a {
+	color: #CE1126;
+	font-weight: 700;
+}
+
+.menu a:hover {
+	text-decoration: none;	
+}
+
+.menu li {
+	padding: 10px;
+	list-style: none;
+}
+
+.menu li ul {
+	display: none;
+}
+
+.menu li:hover{
+	background: #FFCC00;
+}
+
+/*Second Column*/
+#content-column {
+	border-left: 2px solid #003F87;
+	margin: 0 0 0 15%;
+	min-height: 100px;
+	padding: 10px 0 0 25px;
+}
+
+/*Blog posts*/
+.post {
+    border: 1px solid #CCC;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 0 18px 0;
+	box-shadow: 4px 4px 10px;
+	width: 90%;
+}
+
+.post h3 {
+    font-weight: 700;
+}
+
+.post .by-line {
+    font-size: .75em;
+    margin: 2px 0 5px 0;
+}
+
+.post p {
+	line-height: 1.5em;
+}
+
+/*Pages*/
+.page p {
+	line-height: 1.5em;
+}
+
+/*Footer*/
+#footer {
+    position: relative;
+    background-image: url('images/ActionFolio_blue2.png');
+    background-repeat: repeat-x;
+    clear: both;
+    font-size: .9em;
+    width: 100%;
+    margin-top: -309px;
+    height: 309px;
+}
+
+#footer .meta {
+    color: whitesmoke;
+    opacity: .75;
+    padding: 280px 25px 0 0;  
+    text-align: right;
+}
+
+#footer .meta a:link {
+    color: whitesmoke;
+}
+
+#footer .meta a:visited {
+    color: whitesmoke;
+}
+
+#footer #wp-logo {
+	margin: -4px 2px 0 0;
+}

@@ -1,0 +1,25 @@
+==BSA Simple==
+With the best of the authors understanding, this theme is provided under any jurisdiction of public domain, free of charge, and without warranty. Modifications do not have to be made public, but it is encouraged.
+
+It is a simple Scouting theme for WordPress with no options (yet) that focuses on a clean look. It follows the [http://www.scouting.org/scoutsource/BrandGuide.aspx BSA Brand Identity Guide].
+
+===Images===
+This theme contains minor changes to the official BSA images. All the changes are documented here.
+
+====Boy Scout Universal Emblem Trademark====
+[http://www.scouting.org/filestore/marketing/Brand/BSA_Black.jpg Original]
+* Replaced white background with transparent.
+* Saved as PNG.
+
+====BSA Stationery Action Folio====
+[http://www.scouting.org/filestore/marketing/images/ActionFolio_blue.png Original]
+* Minor image modification so it can loop.
+
+===Credit===
+[http://www.cssstickyfooter.com/using-sticky-footer-code.html Sticky Footer Code]
+
+
+
+===To Do===
+- Needs better name
+- Changeable logo and colors (ie for cub scouts, varsity, etc...)
