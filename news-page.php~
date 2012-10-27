@@ -31,9 +31,7 @@ get_header();
                 <div class="entry">
                     <?php the_content(); ?>
                 </div>
-                <div class="comment">
-                    <?php comments_popup_link('No Comments »', '1 Comment »', '% Comments »'); ?>
-                </div>
+                <?php comments_popup_link('No Comments »', '1 Comment »', '% Comments »'); ?>
             </div>
 			
             <?php endwhile; else: ?>

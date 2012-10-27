@@ -152,8 +152,9 @@ a:active {
     padding: 20px;
 }
 
+.post .comments-template p,
 .post .comments-template h3 {
-    float: none;
+    display: block;
 }
 
 /*Pages*/

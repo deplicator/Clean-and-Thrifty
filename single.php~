@@ -1,16 +1,9 @@
-<?php
-/*
-Template Name: News Page
-*/
-
-get_header();
-?>
+<?php get_header(); ?>
 
     <div class="main">
         <?php wp_nav_menu(); ?>
 	
         <div id="content-column">
-            <?php query_posts('category_name=News&posts_per_page=10'); ?>
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			
 			<div class="post">
@@ -28,20 +21,27 @@ get_header();
                 </div>
             </div>
 
-                <div class="entry">
-                    <?php the_content(); ?>
-                </div>
-                <div class="comment">
-                    <?php comments_popup_link('No Comments »', '1 Comment »', '% Comments »'); ?>
-                </div>
+            <div class="entry">
+                <?php the_content(); ?>
             </div>
-			
-            <?php endwhile; else: ?>
-                <p><?php _e('Sorry, no posts labeled as \'News\'.'); ?></p>
-            <?php endif; ?>
 
+			</div>
+
+			<div class="comments-template">
+				<?php comments_template(); ?>
+			</div>
+			
 		</div>
-	
+
 	</div>
+
+<?php endwhile; ?>
+	
+	<div class="navigation">	
+		<?php previous_post_link('< %link') ?> <?php next_post_link(' %link >') ?>
+	</div>
+
+<?php endif; ?>
+</div>
 
 <?php get_footer(); ?>
