@@ -181,6 +181,20 @@ a:visited {
 
 
 /* Pages */
+.page h1,
+.page h2,
+.page h3 {
+    padding: 10px 0 0 0;
+}
+
+.page h4,
+.page h5,
+.page h6 {
+    font-weight: normal;
+    padding: 10px 0 0 0;
+    text-decoration: underline;
+}
+
 .page p {
     line-height: 1.3em;
 }
