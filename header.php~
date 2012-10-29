@@ -10,7 +10,7 @@
     <body>
 	<div id="wrapper">
 	<div id="header">
-		<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/BSA_Transparent.png" alt="BSA Logo" width="150px">
-			<h1><?php bloginfo('name'); ?></a></h1>
+		<img src="<?php bloginfo('template_directory'); ?>/images/BSA_Transparent.png" alt="BSA Logo" width="150px">
+			<h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 			<h2><?php bloginfo('description'); ?></h2>
 	</div>	

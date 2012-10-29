@@ -27,11 +27,11 @@
     		<?php include 'post.php' ?>
     		
             <?php endwhile; ?>
-                <div class="navigation">
-            		<?php posts_nav_link(' | '); ?>
-            	</div>
-        	<?php else: ?>
-                <p><?php _e('Sorry, no post found.'); ?></p>
+        
+        	<div class="navigation">
+        		<?php posts_nav_link(' | '); ?>
+        	</div>
+        
             <?php endif; ?>
         
         </div>
