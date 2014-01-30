@@ -1,4 +1,14 @@
 <?php
+
+function load() {
+    wp_enqueue_style('reset',  get_template_directory_uri() . '/css/reset.css');
+    wp_enqueue_style('style-name', get_stylesheet_uri());
+    wp_enqueue_script('footer',  get_template_directory_uri() . '/scripts/footer.js', array('jquery'));
+}
+
+add_action('wp_enqueue_scripts', 'load');
+
+/*
 //Some simple code for our widget-enabled sidebar
 if (function_exists('register_sidebar')) {
     register_sidebar();
@@ -33,3 +43,4 @@ function theme_options_init(){
 function theme_options_add_page() {
  add_theme_page( __( 'Theme Options', 'sampletheme' ), __( 'Theme Options', 'sampletheme' ), 'edit_theme_options', 'theme_options', 'theme_options_do_page' );
 } 
+*/

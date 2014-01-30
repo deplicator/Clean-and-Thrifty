@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 
     var randomnumber = Math.floor(Math.random()*2636)
 
