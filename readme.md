@@ -24,22 +24,12 @@ This theme contains minor changes to the official BSA images. All the changes ar
     * Saved as PNG.
 
 * [BSA Stationery Action Folio](http://www.scouting.org/filestore/marketing/images/ActionFolio_blue.png)
-    * Minor image modification so it can loop.
+    * Minor image modification to mountains and zip-line so it can loop.
 
 ###Credits
 [Scouting](http://www.scouting.org)
-
+[Wordpress](http://wordpress.org)
 [Sticky Footer Code](http://www.cssstickyfooter.com/using-sticky-footer-code.html)
-
-
-To Do
------
-* Link to home in header/title
-* Update single, category, comments, and other neglected php files.
-* CSS for inside post entries and comment sections.
-* Changeable logo and colors (ie for cub scouts, venture, etc...)
-* Footer info options (like meeting time and place and contact info)
-* Less minor changes to footer image, do something with the end of that rope that's just kind of out there.
 
 
 Log
