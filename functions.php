@@ -1,11 +1,20 @@
 <?php
 
+//http://aahacreative.com/2013/08/05/remove-jquery-migrate-wordpress-36/
+function dequeue_jquery_migrate( &$scripts){
+    if(!is_admin()){
+        $scripts->remove('jquery');
+        $scripts->add('jquery', false, array('jquery-core'), '1.10.2');
+    }
+}
+
 function load() {
     wp_enqueue_style('reset',  get_template_directory_uri() . '/css/reset.css');
     wp_enqueue_style('style-name', get_stylesheet_uri());
     wp_enqueue_script('footer',  get_template_directory_uri() . '/scripts/footer.js', array('jquery'));
 }
 
+add_filter('wp_default_scripts', 'dequeue_jquery_migrate');
 add_action('wp_enqueue_scripts', 'load');
 
 /*
