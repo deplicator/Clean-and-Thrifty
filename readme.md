@@ -9,6 +9,8 @@ This code has an [awful license (UFL)](http://geekwagon.net/ufl/license.txt).
 
 A live example can be seen at [Troop 1865's web page](http://troop1865.org).
 
+![Screen Shot](https://raw2.github.com/deplicator/Clean-and-Thrifty/master/screenshot.png "Screen Shot")
+
 Details
 -------
 ###Page Templates
