@@ -204,6 +204,10 @@ a:visited {
     float: right;
 }
 
+.widget {
+    margin: 0 0 25px 0;
+}
+
 /* Footer */
 #footer {
     background-image: url('images/ActionFolio_blue.png');

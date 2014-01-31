@@ -34,7 +34,8 @@ This theme contains minor changes to the official BSA images. All the changes ar
 
 Log
 ---
-| Date       | Version | Notes                                                       |
-|------------|--------:|-------------------------------------------------------------|
-| 2012-10-28 | 1.0     | Cleaned up code. Added post navigation and header link.     |
-| 2012-10-25 | 0.9     | Initial commit to github and put into use at troop1865.org. |
+| Date       | Version | Notes                                                               |
+|------------|--------:|---------------------------------------------------------------------|
+| 2014-01-30 | 1.1     | More WordPress-like with simple widget support (stress the simple). |
+| 2012-10-28 | 1.0     | Cleaned up code. Added post navigation and header link.             |
+| 2012-10-25 | 0.9     | Initial commit to github and put into use at troop1865.org.         |
