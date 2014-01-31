@@ -66,6 +66,10 @@ a:visited {
     text-decoration: none;
 }
 
+li {
+    margin: 0 0 6px 0;
+}
+
 /* Header */
 #header {
     height: 170px;
@@ -101,6 +105,7 @@ a:visited {
 
 .menu li {
     list-style: none;
+    margin: 0;
     padding: 10px;
 }
 
