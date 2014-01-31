@@ -14,8 +14,23 @@ function load() {
     wp_enqueue_script('footer',  get_template_directory_uri() . '/scripts/footer.js', array('jquery'));
 }
 
+function arphabet_widgets_init() {
+    register_sidebar(array(
+        'name' => 'Right Sidebar',
+        'id' => 'home_right_1',
+        'before_widget' => '<div>',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+    ));
+}
+
 add_filter('wp_default_scripts', 'dequeue_jquery_migrate');
 add_action('wp_enqueue_scripts', 'load');
+add_action('widgets_init', 'arphabet_widgets_init');
+
+
+
 
 /*
 //Some simple code for our widget-enabled sidebar

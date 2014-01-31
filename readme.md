@@ -5,7 +5,7 @@ Summary
 A simple and clean Scouting theme for WordPress. It follows the[BSA Brand Identity Guide]
 (http://www.scouting.org/scoutsource/BrandGuide.aspx).
 
-This code has an [awful license](http://geekwagon.net/ufl/license.txt).
+This code has an [awful license (UFL)](http://geekwagon.net/ufl/license.txt).
 
 A live example can be seen at [Troop 1865's web page](http://troop1865.org).
 
@@ -21,15 +21,15 @@ This theme contains minor changes to the official BSA images. All the changes ar
 
 * [Boy Scout Universal Emblem Trademark](http://www.scouting.org/filestore/marketing/Brand/BSA_Black.jpg)
     * Replaced white background with transparent.
-    * Saved as PNG.
+    * Converted to PNG.
 
 * [BSA Stationery Action Folio](http://www.scouting.org/filestore/marketing/images/ActionFolio_blue.png)
     * Minor image modification to mountains and zip-line so it can loop.
 
 ###Credits
-[Scouting](http://www.scouting.org)
-[Wordpress](http://wordpress.org)
-[Sticky Footer Code](http://www.cssstickyfooter.com/using-sticky-footer-code.html)
+[Scouting](http://www.scouting.org)  
+[Wordpress](http://wordpress.org)  
+[Sticky Footer Code](http://www.cssstickyfooter.com/using-sticky-footer-code.html)  
 
 
 Log

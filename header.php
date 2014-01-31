@@ -27,3 +27,6 @@
         <h1><?php bloginfo('name'); ?></a></h1>
         <h2><?php bloginfo('description'); ?></h2>
     </div>
+    <div class="sidebar">
+        <?php if ( dynamic_sidebar('home_right_1') ) : else : endif; ?>
+    </div>

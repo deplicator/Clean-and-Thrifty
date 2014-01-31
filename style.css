@@ -115,9 +115,10 @@ a:visited {
 /* Main Column */
 #content-column {
     border-left: 2px solid #003F87;
-    margin: 0 0 0 15%;
+    float: left;
     min-height: 100px;
     padding: 10px 0 0 25px;
+    width: 64%;
 }
 
 /* Blog posts */
@@ -197,6 +198,10 @@ a:visited {
 
 .page p {
     line-height: 1.3em;
+}
+
+.sidebar {
+    float: right;
 }
 
 /* Footer */

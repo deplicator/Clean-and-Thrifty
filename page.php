@@ -1,24 +1,23 @@
 <?php get_header(); ?>
 
-   <div class="main">
-        <?php wp_nav_menu(); ?>
-	
-        <div id="content-column">
+<div class="main">
+    <?php wp_nav_menu(); ?>
 
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			
-			<div class="page">
+    <div id="content-column">
 
-                    <?php the_content(); ?>
-                
-            </div>
-			
-            <?php endwhile; else: ?>
-            <?php endif; ?>
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        
+        <div class="page">
 
-		</div>
-	
-	</div>
+                <?php the_content(); ?>
+            
+        </div>
+        
+        <?php endwhile; else: ?>
+        <?php endif; ?>
+
+    </div>
+</div>
 
 
 <?php get_footer(); ?>
